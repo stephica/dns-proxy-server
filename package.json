@@ -1,7 +1,7 @@
 {
-  "name": "docker-dns-server",
+  "name": "FIE-Fastest-Internet-Ever",
   "version": "1.0.0",
-  "description": "A node dns server to resolve docker and others hostnames",
+  "description": "An internet connection speedup tool",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,14 +13,16 @@
     "server",
     "docker"
   ],
-  "author": "Elvis de Freitas",
+  "author": "marchon",
   "license": "Apache-2.0",
   "dependencies": {
     "async": "^1.5.2",
     "body-parser": "^1.15.0",
+    "dnscache": "^1.0.1",
     "docker-events": "0.0.2",
     "dockerode": "^2.2.9",
     "express": "^4.13.4",
-    "native-dns": "^0.7.0"
+    "node-dns" : "git@github.com:stephica/node-dns.git",
+    "native-dns-cache": "git@github.com:stephica/native-dns-cache.git"
   }
 }
