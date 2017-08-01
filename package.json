@@ -22,7 +22,11 @@
     "docker-events": "0.0.2",
     "dockerode": "^2.2.9",
     "express": "^4.13.4",
-    "node-dns" : "git@github.com:stephica/node-dns.git",
-    "native-dns-cache": "git@github.com:stephica/native-dns-cache.git"
+    "memwatch-next": "^0.3.0",
+    "native-dns-cache": "git@github.com:stephica/native-dns-cache.git",
+    "node-dns": "git@github.com:stephica/node-dns.git" 
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
   }
 }
